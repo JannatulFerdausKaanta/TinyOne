@@ -1,0 +1,221 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'PT Sans', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/* Main CSS starts from here*/
+
+
+/* Header section CSS starts from here */
+
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: #fcdb00;
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: rgba(0,0,0);
+	font-size: 20px;
+	font-weight: 900;
+	margin-left: 35px;
+	border: 3px dashed #fcdb00;
+	transition: 1s;
+}
+/*.header-section .navbar-nav .nav-link{
+	margin-left: 35px;
+}*/
+.header-section .navbar-light .navbar-nav .nav-link:hover{
+	border-bottom: 3px dashed #010101;
+}
+.header-section .banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.header-section .banner .banner-text{
+	width: 100%;
+	padding: 20px 0px;
+}
+.header-section .banner .banner-text h1{
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.header-section .banner .banner-text h5{
+	font-size: 26px;
+	line-height: 36px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.header-section .banner .banner-text p{
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 20px;
+}
+.header-section .banner .banner-text .img-inner{
+	margin-top: 30px;
+}
+
+/* Header section CSS ends here */
+
+
+/* feature section CSS starts from here */
+
+.feature-section{
+	width: 100%;
+	margin: 30px 0px;
+	padding: 80px 0px;
+}
+.feature-section .title{
+	width: 100%;
+	text-align: center;
+}
+.feature-section .title h1{
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 700;
+}
+.feature-section .title h6{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 400;
+}
+.feature-section .row{
+	margin-bottom: 60px;
+}
+.feature-section .fa{
+	font-size: 40px;
+	font-weight: 500;
+	color: #010101;
+}
+.feature-section h5{
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 500;
+	color: #010101;
+}
+.feature-section p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #c4c4c4;
+}
+
+/* feature section CSS ends here */
+
+/* footer section CSS starts from here */
+
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #010101;
+}
+.footer-section .footer-title{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 45px;
+}
+.footer-section .footer-title h1{
+	font-size: 36px;
+	line-height: 46px;
+	font-weight: 700;
+	color: #fcdb00;
+}
+.footer-section .footer-title p{
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #898989;
+}
+.footer-section .form-inline{
+	width: 100%;
+	padding: 0px 55px;
+	margin-bottom: 60px;
+}
+.footer-section .form-inline .form-group{
+	width: 65%;
+}
+.footer-section .form-inline .form-group .form-control{
+	width: 95%;
+	/*height: auto !important;*/
+	padding: 22px;
+}
+.footer-section .form-inline .btn-primary{
+	font-size: 18px;
+	font-weight: 600;
+	padding: 10px 30px;
+	background: #fcdb00;
+	border: 1px solid #fcdb00;
+	color: #010101;
+	text-transform: uppercase;
+	transition: 1s;
+}
+.footer-section .form-inline .btn-primary:hover{
+	background: transparent;
+	color: #fcdb00;
+	border: 1px solid #fcdb00;
+}
+.footer-section a{
+	background: #fcdb00;
+}
+.footer-section .social-icon{
+	width: 100%;
+	margin-bottom: 95px;
+}
+.footer-section .social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px 10px;
+}
+.footer-section .social-icon ul li a{
+	color: #000000;
+	font-size: 20px;
+	background: #fcdb00;
+	border: 1px solid #fcdb00;
+	padding: 5px 10px;
+	border-radius: 5px;
+	transition: 1s;
+}
+.footer-section .social-icon ul li a:hover{
+	color: #fcdb00;
+	background: transparent !important;
+	border: 1px solid #fcdb00;
+}
+.footer-section .address{
+	width: 100%;
+	margin-left: 85px;
+}
+.footer-section .address h6{
+	color: #f5f5f5;
+}
+.footer-section .address p{
+	color: #f5f5f5;
+	font-size: 16px;
+}
+.footer-section .list{
+	width: 100%;
+}
+.footer-section .list ul li{
+	list-style: none;
+}
+.footer-section .list ul li a{
+	background: #010101;
+	color: #f5f5f5;
+	font-size: 16px;
+}
+.footer-section .list ul li a:hover{
+	color: #fcdb00;
+}

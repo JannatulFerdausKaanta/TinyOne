@@ -1,0 +1,102 @@
+/* CSS media queries goes here */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .header-section .navbar-light .navbar-nav .nav-link{
+    color: rgba(0,0,0);
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .header-section .banner .banner-text h1{
+  font-size: 28px;
+  font-weight: 700;
+  }
+  .header-section .banner .banner-text h5{
+  font-size: 26px;
+  }
+  .header-section .banner .banner-text .img-inner{
+  margin-bottom: 30px;
+  }
+
+  .footer-section .footer-title h1{
+    font-size: 28px;
+    line-height: 38px;
+  }
+  .footer-section .footer-title p{
+    font-size: 14px;
+  }
+  .footer-section .form-inline .form-group .form-control{
+    width: 50%;
+    position: absolute;
+    left: 18px;
+    bottom: 45px;
+  }
+  .footer-section .form-inline .btn-primary{
+    position: absolute;
+    left: 210px;
+  }
+  .footer-section .social-icon{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .footer-section .address{
+    margin-bottom: 40px;
+  }
+  .footer-section .first{
+    max-width: 27.6%;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .header-section .navbar-light .navbar-nav .nav-link{
+    color: rgba(0,0,0);
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .header-section .banner .banner-text h1{
+  font-size: 28px;
+  font-weight: 700;
+  }
+  .header-section .banner .banner-text h5{
+  font-size: 26px;
+  }
+  .header-section .banner .banner-text .img-inner{
+  margin-bottom: 30px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .header-section .navbar-light .navbar-nav .nav-link{
+    color: rgba(0,0,0);
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .header-section .banner .banner-text h1{
+  font-size: 28px;
+  font-weight: 700;
+  }
+  .header-section .banner .banner-text h5{
+  font-size: 26px;
+  }
+  .header-section .banner .banner-text .img-inner{
+  margin-bottom: 30px;
+  }
+
+  .footer-section .address{
+    margin-left: 35px;
+  }
+}
